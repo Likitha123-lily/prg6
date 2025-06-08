@@ -28,6 +28,6 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: 'myapp/target'
+    PathtoPublish: 'program2/myapp/target'
     ArtifactName: 'MyArtifact'
     publishLocation: 'Container'
